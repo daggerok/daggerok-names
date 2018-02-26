@@ -6,3 +6,7 @@
 4. add tess: `npm i mocha assert`
 5. add linting: `npm eslint`, `./node_modules/.bin/eslint --init`
 6. add CI: `touch .travis.yml`
+7. add code coverage: `npm i nyc`,
+<!--
+8. share library: `npm version`, `npm login`, `npm publish`
+-->

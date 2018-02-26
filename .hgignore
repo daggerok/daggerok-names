@@ -1,6 +1,8 @@
 syntax: glob
 .idea
+.nyc_output
 node_modules
+coverage
 .DS_Store
 yarn.lock
 package-lock.json
