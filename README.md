@@ -7,6 +7,7 @@
 5. add linting: `npm eslint`, `./node_modules/.bin/eslint --init`
 6. add CI: `touch .travis.yml`
 7. add code coverage: `npm i nyc`,
+8. add git hook (prepush) to do not brake anything: `npm i husky` (ignoe them with: `git push ... --no-verify`)
 <!--
-8. share library: `npm version`, `npm login`, `npm publish`
+9. share library: `npm version`, `npm login`, `npm publish`
 -->

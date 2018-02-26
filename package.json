@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "watch": "mocha --watch",
     "prevalidate": "rimraf -rf .nyc_output coverage",
-    "validate": "npm-run-all lint test"
+    "validate": "npm-run-all lint test",
+    "prepush": "yarn validate"
   },
   "keywords": [],
   "author": "Maksim Kostromin <daggerok@gmail.com> (https://github.com/daggerok)",
@@ -21,6 +22,7 @@
     "@types/mocha": "2.2.48",
     "assert": "1.4.1",
     "eslint": "4.18.1",
+    "husky": "0.14.3",
     "mocha": "5.0.1",
     "npm-run-all": "4.1.2",
     "nyc": "11.4.1",
