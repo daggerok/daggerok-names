@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "mocha",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "watch": "mocha --watch"
   },
   "keywords": [],
   "author": "Maksim Kostromin <daggerok@gmail.com> (https://github.com/daggerok)",
