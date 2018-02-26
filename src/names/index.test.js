@@ -2,7 +2,7 @@
 
 const { describe, it } = require('mocha');
 const assert = require('assert');
-const names = require('../src/index');
+const names = require('./index.js');
 
 describe('names', function() {
   describe('all', () => {
