@@ -20,8 +20,7 @@ before_script:
 - yarn global add npm-check-updates
 script:
 - yarn -i
-- yarn lint
-- yarn test
+- yarn validate
 cache:
   directories:
   - node_modules
